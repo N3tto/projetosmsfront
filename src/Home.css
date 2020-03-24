@@ -1,0 +1,18 @@
+.home{
+    height: 370px;
+    width: 285px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    border-top: 10px #FF512F solid;
+    color: black;
+}
+
+.form-group{
+    width: 265px;
+}
+
+h3{
+    color: #F09819;
+}
+
