@@ -1,0 +1,31 @@
+.home{
+    overflow: hidden;
+    background-color: #fff;
+    border-top: 10px #D03E35 solid;
+    color: gray;
+    box-shadow: 0.5px 0.5px 4px #888888;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.form-group{
+    min-width: 350px;
+}
+
+h3{
+    font-family: fantasy;
+    color: #FFC801;
+}
+
+button{
+    font-family: fantasy;
+}
+
+.imagem{
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.form-control{
+    min-width: 350px;
+}

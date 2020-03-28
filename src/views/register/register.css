@@ -1,0 +1,23 @@
+h3{
+    display: flex;
+}
+
+
+
+.arrow{
+    size: 10px;
+    display: flex;
+}
+
+.arrow-img{
+
+    size: 10px;
+}
+
+.teste{
+    margin-bottom: 10px;
+}
+
+img{
+    size: 10px;
+}

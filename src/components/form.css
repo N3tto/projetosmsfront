@@ -1,0 +1,15 @@
+.form{
+    overflow: hidden;
+    background-color: #fff;
+    border-top: 10px #D03E35 solid;
+    color: gray;
+    box-shadow: 0.5px 0.5px 4px #888888;
+    padding: 10px;
+    padding-bottom: 5px;
+    min-width: 350px;
+    min-height: 350px;
+}
+
+.imagem{
+    width: 200px;
+}
