@@ -1,17 +1,14 @@
 import React from 'react';
-import Form from '../../components/Form'
-import Img from './arrow-left.svg'
-import {Link} from 'react-router-dom'
-import {FiArrowLeft} from 'react-icons/fi'
-import './register.css'
+import Form from '../../components/Form';
+import {Link} from 'react-router-dom';
+import {FiArrowLeft} from 'react-icons/fi';
+import './register.css';
 
 export default class Register extends React.Component{
     render(){
         return(
             <>
                 <Form>
-                    <div /*className="app d-flex align-items-center justify-content-center h-100"*/>
-
                         <form>
                             <h3 className = 'teste'>
                                 <Link to = '/login'>
@@ -19,32 +16,32 @@ export default class Register extends React.Component{
                                 </Link> SIGN UP</h3>
                             
 
-                            <div className = 'form-group'>
-                                <small><label className = ' app d-flex align-left'>Name:</label></small>
+                            <div className = 'form-group app mb-2 mt-2 '>
+                                <small><label className = ' app d-flex align-left mb-1'>Name</label></small>
                                 <input type = 'text' className = 'form-control' onChange = {this.updateLogin}>
                                 </input>
                             </div>
 
-                            <div className = 'form-group'>
-                                <small><label className = ' app d-flex align-left'>Usename:</label></small>
+                            <div className = 'form-group app mb-2 mt-2'>
+                                <small><label className = ' app d-flex align-left mb-1'>Usename</label></small>
                                 <input type = 'text' className = 'form-control' onChange = {this.updateLogin}>
                                 </input>
                             </div>
 
-                            <div className = 'form-group'>
-                                <small><label className = ' app d-flex align-left'>E-mail:</label></small>
+                            <div className = 'form-group app mb-2 mt-2'>
+                                <small><label className = ' app d-flex align-left mb-1'>E-mail</label></small>
                                 <input type = 'text' className = 'form-control' onChange = {this.updateLogin}>
                                 </input>
                             </div>
 
-                            <div className = 'form-group'>
-                                <small><label className = ' app d-flex align-left'>Password:</label></small>
+                            <div className = 'form-group app mb-2 mt-2'>
+                                <small><label className = ' app d-flex align-left mb-1'>Password</label></small>
                                 <input type = 'password' className = 'form-control' onChange = {this.updateLogin}>
                                 </input>
                             </div>
 
-                            <div className = 'form-group'>
-                                <small><label className = ' app d-flex align-left'>Confirm Pasword:</label></small>
+                            <div className = 'form-group app mb-2 mt-2'>
+                                <small><label className = ' app d-flex align-left mb-1'>Confirm Pasword</label></small>
                                 <input type = 'password' className = 'form-control' onChange = {this.updateLogin}>
                                 </input>
                             </div>
@@ -55,12 +52,11 @@ export default class Register extends React.Component{
                             </div>
 
                             <div className="form-group mt-2">
-                                <button className="bbutton btn btn-success w-100" type = 'submit'>Sign Up</button>
+                                <button className="bbutton btn btn-success w-100 " type = 'submit'>Sign Up</button>
                             </div>
                         </form>
-                    </div>
                 </Form>
             </>
         )
     }
-}
+}   

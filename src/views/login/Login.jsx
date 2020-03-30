@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from '../../components/Form';
 import './Login.css';
 import Img from '../../assets/imgs/logoPitang.png';
 
@@ -30,21 +31,19 @@ export default class Home extends React.Component{
     render(){
         return(
             <>
-            <img className = 'imagem' src = {Img}/>
-            <div className = 'home'>
-                <div className="app d-flex align-items-center justify-content-center h-100">
+            <Form>
                     <form onSubmit = {this.submit}>
 
                         <h3 className = 'hh3 app d-flex align left w-80'>SIGN IN</h3>
 
                         <div className = 'form-group'>
-                            <small><label className = ' app d-flex align-left'>Login:</label></small>
+                            <small><label className = ' app d-flex align-left mb-1'>Login</label></small>
                             <input type = 'text' className = 'form-control' onChange = {this.updateLogin}>
                             </input>
                         </div>
 
                         <div className = 'form-group'>
-                            <small><label className = ' app d-flex align-left'>Password:</label></small>
+                            <small><label className = ' app d-flex align-left mb-1'>Password</label></small>
                             <input type = 'password' className = 'form-control' onChange = {this.updatePassword}>
                             </input>
                         </div>
@@ -62,8 +61,7 @@ export default class Home extends React.Component{
                             <button type="button" className="btn btn-outline-secondary w-100" onClick = {() => this.props.history.push('/register')}>Sign Up</button>
                         </div>
                     </form>
-                </div>
-            </div>
+                 </Form>
             </>
         )
     }

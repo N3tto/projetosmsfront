@@ -1,0 +1,9 @@
+.ct3{
+    bottom: 5%;
+    left: 5%;
+    position: absolute;
+    width: 31.5%;
+    height: 83%;
+    background-color: #F8F8F8;
+    box-shadow: -0.5px 0.5px 2px #888888;
+}
